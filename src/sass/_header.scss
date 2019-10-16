@@ -1,5 +1,4 @@
-header.masthead {
-    background: #0a1633;
+header {
     height: 80px;
     left: 0;
     width: 100%;
@@ -41,8 +40,9 @@ header.masthead {
         flex: 0;
       }
   
-      path {
-        fill: white;
+      svg {
+          width:32px;
+          height:32px;
       }
   
       .copy {
@@ -77,7 +77,6 @@ header.masthead {
       }
   
       h4 {
-        display: inline-block;
         font-weight: 400;
         margin: 0;
   
@@ -105,7 +104,7 @@ header.masthead {
             padding-left: 15px;
           }
   
-          img {
+          svg {
             display: inline-block;
             width: 1.5em;
             height: 1.5em;
@@ -114,25 +113,6 @@ header.masthead {
             position: relative;
           }
         }
-  
-        // &.icon {
-        //     padding: 8px;
-  
-        //     @media (max-width:550px) {
-        //         display: none;
-        //     }
-  
-        //     &:first-child {
-        //         margin-left: auto;
-        //     }
-  
-        //     img {
-        //         width: 1.3em;
-        //         height: 1.3em;
-  
-        //         fill: white;
-        //     }
-        // }
       }
     }
   }

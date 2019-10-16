@@ -1,0 +1,16 @@
+footer {
+    height:44px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        height:22px;
+
+        svg {
+            display:block;
+            height:100%;
+        }
+    }
+}
