@@ -1,14 +1,17 @@
 {
   "name": "fairfax-header",
-  "version": "0.0.1",
+  "version": "0.0.56",
   "description": "npm package for dynamic fairfax header",
-  "main": "build/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run lint && babel ./src -d ./lib",
+    "build": "npm run lint && npx webpack",
     "lint": "eslint ./src",
-    "prepublishOnly": "npm run build"
+    "prepublish": "npm run build"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gpitot/fairfax-header.git"
@@ -20,11 +23,20 @@
   },
   "homepage": "https://github.com/gpitot/fairfax-header#readme",
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
     "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
-    "eslint": "^6.5.1"
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "node-sass": "^4.12.0",
+    "path": "^0.12.7",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
   },
-  "dependencies": {
-    "node-sass": "^4.12.0"
-  }
+  "dependencies": {}
 }
