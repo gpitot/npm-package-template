@@ -4,7 +4,10 @@
   "description": "npm package for dynamic fairfax header",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run lint && babel ./src -d ./lib",
+    "lint": "eslint ./src",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/gpitot/fairfax-header/issues"
   },
-  "homepage": "https://github.com/gpitot/fairfax-header#readme"
+  "homepage": "https://github.com/gpitot/fairfax-header#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.5.1"
+  }
 }
