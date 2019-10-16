@@ -1,0 +1,19 @@
+{
+  "name": "fairfax-header",
+  "version": "0.0.1",
+  "description": "npm package for dynamic fairfax header",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpitot/fairfax-header.git"
+  },
+  "author": "Guillaume Pitot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpitot/fairfax-header/issues"
+  },
+  "homepage": "https://github.com/gpitot/fairfax-header#readme"
+}
