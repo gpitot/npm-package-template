@@ -3,9 +3,9 @@ find header and footer elements and insert correct header and footer into them
 */
 
 
-import getSite from "./get-site";
-import setupHeader from "./setup-header";
-import setupFooter from "./setup-footer";
+import getSite from "./js/site/get-site";
+import setupHeader from "./js/header";
+import setupFooter from "./js/footer";
 
 import './sass/index.scss';
 
