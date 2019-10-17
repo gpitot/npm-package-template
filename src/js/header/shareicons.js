@@ -6,6 +6,7 @@ const shareIcon = ({ svg = "", url = "#" }, frontColor) => {
     a.classList.add("ga-target");
   
     a.href = url;
+    a.target = "_blank";
     a.innerHTML = svg;
     Array.from(a.querySelectorAll("path, rect")).forEach(
       p => (p.style.fill = frontColor)

@@ -1,6 +1,6 @@
 {
   "name": "fairfax-header",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "npm package for dynamic fairfax header",
   "main": "lib/index.js",
   "scripts": {

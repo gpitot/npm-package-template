@@ -13,7 +13,9 @@ header {
     position: relative;
   
     .header-item {
-      flex: 1 1 0;
+      flex-grow : 1;
+      flex-shrink : 1;
+      flex-basis:0;
   
       @media screen and (max-width: 500px) {
       }
@@ -71,6 +73,7 @@ header {
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      flex:1;
   
       @media screen and (max-width: 900px) {
         display: none;
