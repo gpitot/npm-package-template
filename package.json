@@ -39,6 +39,5 @@
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
-    "whatwg-fetch": "^3.0.0"
   }
 }

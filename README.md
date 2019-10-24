@@ -1,2 +1,2 @@
-# fairfax-header
-npm package for dynamic fairfax header
+# package template
+npm package template for studios
